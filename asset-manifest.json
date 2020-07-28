@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.js": "/gobarber/static/js/main.d24ba08f.chunk.js",
+    "main.js.map": "/gobarber/static/js/main.d24ba08f.chunk.js.map",
+    "runtime-main.js": "/gobarber/static/js/runtime-main.3976d41c.js",
+    "runtime-main.js.map": "/gobarber/static/js/runtime-main.3976d41c.js.map",
+    "static/js/2.ba47fec4.chunk.js": "/gobarber/static/js/2.ba47fec4.chunk.js",
+    "static/js/2.ba47fec4.chunk.js.map": "/gobarber/static/js/2.ba47fec4.chunk.js.map",
+    "index.html": "/gobarber/index.html",
+    "precache-manifest.3ae87f01d6343df20a41fb1cc79c9d68.js": "/gobarber/precache-manifest.3ae87f01d6343df20a41fb1cc79c9d68.js",
+    "service-worker.js": "/gobarber/service-worker.js",
+    "static/js/2.ba47fec4.chunk.js.LICENSE.txt": "/gobarber/static/js/2.ba47fec4.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/gobarber/static/media/logo.cb3c3e0d.svg",
+    "static/media/sign-in-background.png": "/gobarber/static/media/sign-in-background.6eac314f.png",
+    "static/media/sign-up-background.png": "/gobarber/static/media/sign-up-background.c4d8f988.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3976d41c.js",
+    "static/js/2.ba47fec4.chunk.js",
+    "static/js/main.d24ba08f.chunk.js"
+  ]
+}
