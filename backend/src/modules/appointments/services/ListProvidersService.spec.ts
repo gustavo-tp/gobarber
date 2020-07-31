@@ -1,15 +1,20 @@
-// import AppError from '@shared/errors/AppError';
-
 import FakeUsersRepository from '@modules/users/repositories/fakes/FakeUsersRepository';
+import FakeCashProvider from '@shared/container/providers/CacheProvider/fakes/FakeCashProvider';
 import ListProvidersService from './ListProvidersService';
 
 let fakeUsersRepository: FakeUsersRepository;
+let fakeCashProvider: FakeCashProvider;
 let listProviders: ListProvidersService;
 
 describe('UpdateProfile', () => {
   beforeEach(() => {
     fakeUsersRepository = new FakeUsersRepository();
-    listProviders = new ListProvidersService(fakeUsersRepository);
+    fakeCashProvider = new FakeCashProvider();
+
+    listProviders = new ListProvidersService(
+      fakeUsersRepository,
+      fakeCashProvider,
+    );
   });
 
   it('should be able to list the providers', async () => {

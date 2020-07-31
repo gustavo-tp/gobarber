@@ -1,12 +1,12 @@
 # Recuperação de senha
 
-**RF (Rquisitos Funcionais)**
+**RF (Requisitos Funcionais)**
 
 - O usuário deve poder recuperar sua senha informando o seu e-mail;
 - O usuário deve receber um e-mail com instruções de recuperação de senha;
 - O usuário deve poder resetar sua senha;
 
-**RNF (Rquisitos não Funcionais)**
+**RNF (Requisitos não Funcionais)**
 
 - Utilizar Mailtrap para testar envios em ambiente de dev;
 - Utilizar Amazon SES para envios em produção;
@@ -21,7 +21,7 @@
 
 **RF**
 
-_ O usuário deve poder atualizar seu nome, email e senha;
+- O usuário deve poder atualizar seu nome, email e senha;
 
 **RN**
 
