@@ -5,7 +5,6 @@ import DayPicker, { DayModifiers } from 'react-day-picker';
 import 'react-day-picker/lib/style.css';
 
 import { FiPower, FiClock } from 'react-icons/fi';
-import { is } from 'date-fns/locale';
 import { Link } from 'react-router-dom';
 import {
   Container,
