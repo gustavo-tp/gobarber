@@ -1,6 +1,7 @@
 {
     "env": {
-        "es6": true
+        "es6": true,
+        "jest": true
     },
     "extends": [
         "plugin:react/recommended",
@@ -43,8 +44,18 @@
           "tsx": "never"
         }
       ],
-      "prettier/prettier": "error"
+      "prettier/prettier": "error",
+      "@typescript-eslint/camelcase": "off",
+      "import/no-duplicates": "off"
     },
+    "overrides": [
+      {
+        "files": ["**/*.ts", "**/*.tsx"],
+        "rules": {
+          "camelcase": ["off"]
+        }
+      }
+    ],
     "settings": {
       "import/resolver": {
         "typescript": {}

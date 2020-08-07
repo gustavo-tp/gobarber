@@ -1,7 +1,8 @@
 {
     "env": {
         "browser": true,
-        "es6": true
+        "es6": true,
+        "jest": true
     },
     "extends": [
         "plugin:react/recommended",
@@ -44,8 +45,18 @@
       "prettier/prettier": "error",
       "react/jsx-props-no-spreading": "off",
       "react/prop-types": "off",
-      "no-unused-expressions": "off"
+      "no-unused-expressions": "off",
+      "@typescript-eslint/camelcase": "off",
+      "import/no-duplicates": "off"
     },
+    "overrides": [
+      {
+        "files": ["**/*.ts", "**/*.tsx"],
+        "rules": {
+          "camelcase": ["off"]
+        }
+      }
+    ],
     "settings": {
       "import/resolver": {
         "typescript": {}

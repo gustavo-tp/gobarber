@@ -41,6 +41,8 @@ class ListProviderMonthAvailabilityService {
       (_, index) => index + 1,
     );
 
+    const currentDate = Date.now();
+
     const availability = eachDayArray.map(day => {
       const compareDate = new Date(year, month - 1, day, 23, 59, 59);
 
@@ -51,7 +53,7 @@ class ListProviderMonthAvailabilityService {
       return {
         day,
         available:
-          isAfter(compareDate, new Date()) && appointmentsInday.length < 10,
+          isAfter(compareDate, currentDate) && appointmentsInday.length < 10,
       };
     });
 
